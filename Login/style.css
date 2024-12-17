@@ -1,0 +1,174 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fundo degradê verde para a tela */
+body {
+    background: linear-gradient(to bottom, #1bb31b, #000000);
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 0 15px; /* Espaçamento lateral para telas pequenas */
+}
+
+/* Estilos para o container do login */
+.login-container {
+    background-color: #2c2f32; /* Tom mais escuro */
+    padding: 70px 40px; /* Menos padding, mas ainda espaçoso */
+    border-radius: 10px; /* Bordas arredondadas */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 400px; /* Limita a largura a 400px */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom, #049108, black);
+}
+
+/* Estilo do título */
+.login-container h2 {
+    color: #fff;
+    margin-bottom: 30px; /* Maior espaçamento abaixo do título */
+    font-size: 24px; /* Tamanho do título adequado */
+}
+
+/* Estilos para os campos de input */
+.input-container {
+    margin-bottom: 25px; /* Mais espaço entre os campos de input */
+    width: 100%;
+    text-align: left;
+}
+
+.input-container label {
+    display: block;
+    color: #b0b0b0;
+    margin-bottom: 8px;
+    font-weight: bold;
+    font-weight: 300; /* Fonte mais fina para o input */
+    
+}
+
+.input-container input {
+    width: 100%;
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px solid #3a3a3a;
+    background-color: #333;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 300; /* Fonte mais fina para o input */
+}
+
+.input-container input:focus {
+    border-color: #4caf50;
+    outline: none;
+}
+
+/* Container para o checkbox "Lembre-me" e o botão */
+.remember-container {
+    display: flex;
+    justify-content: space-between; /* Espaça os itens de forma igual */
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px; /* Espaço abaixo do checkbox e botão */
+}
+
+.remember-container input {
+    margin-right: 10px;
+    transform: scale(1.5); /* Aumenta o tamanho do checkbox */
+    
+}
+
+.remember-text {
+    color: #b0b0b0;
+    font-size: 14px;
+    
+}
+
+/* Estilo para o botão */
+button.login-button {
+    width: 120px; /* Largura fixa do botão */
+    padding: 12px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-left: 55px;
+}
+
+button.login-button:hover {
+    background-color: #45a049;
+}
+
+/* Estilo para o link sublinhado */
+.sublinhado {
+    text-decoration: underline;
+    color: #1bb31b;
+    cursor: pointer;
+}
+
+/* Responsividade para telas pequenas */
+@media (max-width: 600px) {
+    .login-container {
+        padding: 30px 20px; /* Menos padding em telas pequenas */
+    }
+
+    body {
+        padding: 0; /* Retirar padding lateral para telas pequenas */
+    }
+}
+
+#user, #pass {
+    color: #fff;
+}
+
+
+
+/* Estilos para a linha com "OR" */
+/* Estilos para a linha com "OR" */
+.or-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px; /* Espaçamento abaixo */
+}
+
+.or-container hr {
+    flex-grow: 1; /* Faz a linha ocupar o espaço disponível */
+    border: 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.4); /* Linha mais fina e suave */
+}
+
+.or-container span {
+    color: #fff;
+    padding: 0 15px; /* Aumenta um pouco o espaço ao redor do "OR" */
+    font-weight: 300; /* Deixa o "OR" mais suave */
+    font-size: 14px; /* Tamanho menor do texto */
+    letter-spacing: 1px; /* Espaçamento mais suave entre as letras */
+}
+
+/* Estilo do link */
+.link-souinlover {
+    text-decoration: none; /* Remove o sublinhado padrão */
+    color: #1bb31b; /* Cor verde */
+    font-weight: bold; /* Torna o link em negrito */
+}
+
+.link-souinlover:hover {
+    text-decoration: underline; /* Adiciona o sublinhado quando o usuário passar o mouse */
+    color: #4caf50; /* Mudança de cor ao passar o mouse */
+}
+
+P{
+    color: #fff;
+}
